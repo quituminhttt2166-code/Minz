@@ -1,0 +1,28 @@
+<h1>Seven Natural Wonders of the World</h1>
+<p>Hover over each image to preview it above and see its description.</p>
+
+<div id="gallery-preview">
+  Hover over or focus on an image below to display here.
+</div>
+
+<div class="gallery-images">
+  <img src="images/halongbay.jpg" alt="Ha Long Bay, Vietnam – Emerald waters surrounded by towering limestone islands">
+  <img src="images/grandcanyon.jpg" alt="Grand Canyon, USA – Vast red rock canyon carved by the Colorado River">
+  <img src="images/greatbarrierreef.jpg" alt="Great Barrier Reef, Australia – The world's largest coral reef system">
+  <img src="images/amazonrainforest.jpg" alt="Amazon Rainforest, South America – Dense green tropical rainforest">
+</div>
+const preview = document.getElementById("gallery-preview");
+const images = document.querySelectorAll(".gallery-images img");
+
+images.forEach(img => {
+  img.addEventListener("mouseover", () => {
+    preview.style.backgroundImage = `url('${img.src}')`;
+    preview.textContent = img.alt;
+  });
+
+  img.addEventListener("mouseout", () => {
+    preview.style.backgroundImage = "";
+    preview.textContent = "Hover over or focus on an image below to display here.";
+  });
+});
+<img tabindex="0" src="..." alt="...">
