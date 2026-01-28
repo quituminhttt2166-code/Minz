@@ -1,0 +1,79 @@
+Minz/
+├── design screen   (file HTML)
+├── style.css
+└── images/
+    └── large-screen.png
+<section class="large-screen-view">
+    <h2>Large Screen View (Desktop)</h2>
+
+    <img src="images/large-screen.png"
+         alt="Large screen design sketch"
+         class="desktop-image">
+
+    <p class="caption">
+        This image shows the large screen (desktop) design sketch of the website.
+    </p>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design Sketch Demo Framework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <h1>Design Sketch Demo</h1>
+        <p>Framework with Large Screen View</p>
+    </div>
+</header>
+
+<section class="framework">
+    <div class="container">
+        <h2>Design Framework Overview</h2>
+        <p>
+            This design sketch demo presents a basic website framework
+            coded from scratch using HTML and CSS. The layout is designed
+            primarily for large screens (desktop view).
+        </p>
+    </div>
+</section>
+
+<section class="large-screen">
+    <div class="container">
+        <h2>Large Screen View (Desktop)</h2>
+
+        <img src="images/large-screen-view.png"
+             alt="Large screen design sketch preview"
+             class="large-image">
+
+        <p class="caption">
+            Figure 1: Large screen (desktop) design sketch shown as a PNG/JPG image.
+        </p>
+    </div>
+</section>
+
+<section class="explanation">
+    <div class="container">
+        <h2>Design Explanation</h2>
+        <p>
+            The large screen view demonstrates a full-width navigation bar,
+            a sidebar area, and a wide main content section. This structure
+            makes effective use of available screen space on desktop devices.
+        </p>
+        <p>
+            The framework focuses on clarity, spacing, and hierarchy rather
+            than visual decoration.
+        </p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Design Sketch Demo Framework</p>
+</footer>
+
+</body>
+</html>
