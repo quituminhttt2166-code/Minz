@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Demo – Designed From Scratch</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e272e;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: #fff;
+      margin: 20px 0;
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #1e272e;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+
+    footer {
+      text-align: center;
+      background: #1e272e;
+      color: #fff;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Student | Web Development Learner</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        This portfolio is designed and coded completely from scratch using
+        HTML and CSS. It is created as part of a peer-graded assignment to
+        demonstrate basic front-end development skills.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project One</h3>
+          <p>Personal portfolio website built from scratch.</p>
+        </div>
+        <div class="project">
+          <h3>Project Two</h3>
+          <p>Responsive layout using CSS Grid.</p>
+        </div>
+        <div class="project">
+          <h3>Project Three</h3>
+          <p>Simple website demonstrating HTML and CSS fundamentals.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: yourname@email.com</p>
+      <p>GitHub: github.com/yourname</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Your Name | Portfolio Designed From Scratch</p>
+  </footer>
+
+</body>
+</html>
